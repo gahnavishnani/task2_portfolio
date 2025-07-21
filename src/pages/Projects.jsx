@@ -7,21 +7,38 @@ function Projects() {
         {/* Project 1: Sukhi Suvidha */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold text-green-400 mb-2">Sukhi Suvidha</h3>
-          <p>
+          <p className="mb-4">
             An AI-powered medical info simplifier for rural India. Supports OCR, translation into 5 local languages, and voice output for better accessibility.
           </p>
+          <a
+            href="https://github.com/gahnavishnani/sukhi-suvidha"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:underline"
+          >
+            View on GitHub
+          </a>
         </div>
 
         {/* Project 2: Bank Management System */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold text-green-400 mb-2">Bank Management System</h3>
-          <p>
-            A Java-based console project to manage customer banking operations like account creation, balance check, deposit, and withdrawal using OOP concepts.
+          <p className="mb-4">
+            A Java-based console application for managing customer banking operations like account creation, deposit, withdrawal, and balance check.
           </p>
+          <a
+            href="https://github.com/gahnavishnani/Bank-Management-System-Java"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:underline"
+          >
+            View on GitHub
+          </a>
         </div>
       </div>
     </div>
   );
 }
 
+// ✅ ONLY ONE DEFAULT EXPORT BELOW
 export default Projects;

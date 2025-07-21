@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <div className="bg-gray-900 min-h-screen text-white">
+      <div className="bg-gray-900 min-h-screen text-white font-poppins">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -16,6 +16,11 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        {/* ✅ Footer here */}
+        <footer className="text-center py-6 text-sm text-gray-500">
+          © {new Date().getFullYear()} Gahna Vishnani. All rights reserved.
+        </footer>
       </div>
     </Router>
   );
